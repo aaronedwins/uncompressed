@@ -1,0 +1,98 @@
+/*
+1920px grid system ~ Core CSS.
+12 columns ~ margin: 12px
+
+Based on the golden grid system - http://code.google.com/p/the-golden-grid/
+by Vladimir Carrer
+
+Created by the Grid System Generator - v1.00
+Learn more ~ http://www.gridsystemgenerator.com/
+*/
+
+/* =Containers
+--------------------------------------------------------------------------------*/
+.main
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1920px;
+}
+
+/* =Grid >> Global
+--------------------------------------------------------------------------------*/
+.g159, .g318, .g477, .g636, .g795, .g954, .g1113, .g1272, .g1431, .g1590, .g1749, .g1908 {
+	display: inline;
+	float: left;
+	margin-left: 12px;
+}
+
+/* =Grid >> 12 Columns
+--------------------------------------------------------------------------------*/
+.g159{width:147px;}
+.g318{width:306px;}
+.g477{width:465px;}
+.g636{width:624px;}
+.g795{width:783px;}
+.g954{width:942px;}
+.g1113{width:1101px;}
+.g1272{width:1260px;}
+.g1431{width:1419px;}
+.g1590{width:1578px;}
+.g1749{width:1737px;}
+.g1908{width:1896px;}
+
+
+/* =Grid >> 12 Columns - no left margin
+--------------------------------------------------------------------------------*/
+.ml159{margin-left:171px;}
+.ml318{margin-left:330px;}
+.ml477{margin-left:489px;}
+.ml636{margin-left:648px;}
+.ml795{margin-left:807px;}
+.ml954{margin-left:966px;}
+.ml1113{margin-left:1125px;}
+.ml1272{margin-left:1284px;}
+.ml1431{margin-left:1443px;}
+.ml1590{margin-left:1602px;}
+.ml1749{margin-left:1761px;}
+.ml1908{margin-left:1920px;}
+
+
+.inside{margin-left:0;}
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
